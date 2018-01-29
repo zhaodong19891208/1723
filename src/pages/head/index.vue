@@ -1,12 +1,19 @@
 <template>
     <div>
-       index
+       <Header></Header>
+       <Swiper></Swiper>
     </div>
 </template>
 
 <script>
+import Header from './header'
+import Swiper from './swiper'
 export default {
-    name: 'index'
+    name: 'index',
+    components: {
+       Header,
+       Swiper
+    }
 }
 </script>
 
